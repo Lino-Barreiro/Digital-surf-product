@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="venta/grid.css">
+    
+    <title>Venta</title>
+</head>
+<body>
+
+    <!-- Aqui empieza el navbar -->
+    <nav>
+        <div class="brand_image">
+            <a href="index.html"><img src="images/logo2.png" alt=""></a>
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="venta.html">Faqs</a></li>
+                <li><a href="producto.html">Productos y servicios</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Aqui acaba el navbar -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="modulo_pago">
+                    <div class="imagen_pago">
+                    <img src="images/tabla1.png" height="250px">
+                    </div>  
+                    <h3>
+                        Tabla beginner
+                    </h3>
+                    <p>
+                        Miles de productos hay en el mercado, pero nada como una caja con gatitos, Miles de productos hay en el mercado, pero nada como una caja con gatitos
+                    </p>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="modulo_pago">
+                    <div class="formulario">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LXKV2QPT2WAGG" method="post">
+                        <h1 class="titulo_formulario">
+                            HOLA, LLENA TUS DATOS!
+                        </h1>
+                        <br>
+                        <br>
+                        <label for="name">Nombre</label>
+                        <br>
+                        <input type="text" placeholder="" name="name" class="data">
+                        <br>
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input type="text" placeholder="" name="mail" class="data">
+                        <br>
+                        <label for="phone">Telefono</label>
+                        <br>
+                        <input type="text" placeholder="" name="phone" class="data">
+                        <br>
+                        <br>
+                        <input type="submit" class="main_button" name="submit" value="Continuar al pago">
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+       
+    <div class="footer">
+        <footer>
+            Terminos y condiciones
+        </footer>
+        <footer>
+            linoo@hotmail.es
+        </footer>
+    </div>
+
+   <script src="scripts/script.js"></script> 
+</body>
+</html>

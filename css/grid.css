@@ -1,0 +1,124 @@
+:root
+{
+--verdecolor:#5C9396;
+--verdepalido: #CADACB;
+--cremacolor: #F7EDD1;
+--verdenegro: #091829;
+}
+
+.todo
+{
+    justify-content: center;
+    color: var(--verdenegro);
+    background-image: url("../images/fondo.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 4000px;
+    margin-bottom: 150px;
+}
+
+.titulo
+{
+    padding-left: 400px;
+    margin-top: 110px;
+    font-size: 18px;
+    color: var(--verdenegro);
+}
+
+.subtitulo
+{
+    color: var(--verdenegro);
+}
+
+.container
+{
+    max-width: 900px;
+    margin: auto;
+    margin-top: -70px;
+}
+  
+.row
+{
+    display: flex;
+    padding-top: 180px;
+}
+
+.izquierda
+{
+    padding-right: 60px;
+}
+
+.derecha
+{
+    justify-content: center;
+}
+
+.col-1
+{ 
+    width: 8.3333333333%;
+}
+
+.col-2
+{
+    width: 16.6666666666%;
+}
+.col-3
+{
+    width: 25%;
+}
+
+.col-4
+{
+    width: 33.333333332%;
+}
+
+.col-5
+{
+    width: 41.666666665%;
+}
+
+@media (max-width: 600px)
+{
+    .col-5
+    {
+        width: 58.333333331%;
+    }
+}
+
+.col-6
+{
+    width: 50%;
+}
+
+.col-7
+{
+    width: 58.333333331%;
+}
+
+.col-8
+{
+    width: 66.666666664%;
+}
+
+.col-9
+{
+    width: 75%;
+}
+
+.col-10
+{
+    width: 83.33333333%;
+}
+
+.col-11
+{
+    width: 91.666666663%;
+}
+
+.col-12
+{
+    width: 100%;
+}
+
+
+/* container > row > column */

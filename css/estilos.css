@@ -1,0 +1,282 @@
+:root
+{
+--verdecolor:#5C9396;
+--verdepalido: #CADACB;
+--cremacolor: #F7EDD1;
+--verdenegro: #091829;
+}
+
+html,body
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    background-color: var(--verdepalido);
+    height: 100px;
+    color: var(--verdecolor) ;
+    font-family: Moon;
+}
+
+label
+{
+    font-size: 14px;
+    font-style: unset;
+}
+
+nav
+{
+    display: flex;
+    background-color: rgba(92, 147, 150, 0.747);
+    padding: 15px;
+    color : var(--cremacolor);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul
+{
+    display: flex;  
+}
+
+nav li
+{
+    padding-left: 10px;
+    list-style: none;
+}
+
+nav li a
+{
+    color: var(--cremacolor);
+    text-decoration-line: none;
+}
+
+nav li a:hover
+{
+    color: var(--verdenegro);
+}
+
+.slider
+{
+    background-image: url("../images/surfwall2.jpg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.fondo_opaco
+{
+    padding-top: 250px;
+    color: var(--cremacolor);
+    padding-left: 150px;
+    font-size: 20px;
+}
+
+.main_button_slider
+{
+    background-color: var(--verdenegro);
+    width: 15%;
+    padding: 15px;
+    font-family: Moon;
+    font-size: 14px;
+    color: var(--cremacolor);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 250px;
+}
+
+.main_button_slider:hover
+{
+    background-color: var(--verdepalido);
+    color: var(--verdenegro);
+}
+
+/* Main section */
+
+.main_section
+{
+    text-align: center;
+    padding: 8%;
+    color: var(--verdenegro);
+    font-size: 25px;
+}
+
+.products
+{
+    background-image: url("../images/fondo.png");
+    height: 400px;
+    background-size: cover;
+    background-position: top center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.product
+{
+    padding: 50px;
+    margin-top: -80px;
+}
+
+.product .content
+{
+    background-color: var(--cremacolor);
+    padding: 20px;
+    box-shadow: 10px 10px 0px 4px var(--verdecolor) ;
+}
+
+.content h1
+{
+    color: var(--verdenegro);
+}
+
+.img_content
+{
+    text-align: center;
+}
+
+.main_button
+{
+    background-color: var(--verdecolor);
+    width: 100%;
+    padding: 10px;
+    font-family: Moon;
+    font-size: 14px;
+    color: var(--cremacolor);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main_button:hover
+{
+    background-color: var(--verdenegro);
+}
+
+.caracteristicas
+{
+    background-color: #bbd2c5
+}
+
+.adjetivos
+{
+    background-image: url("../images/fondo.png");
+    height: 400px;
+    background-size: cover;
+    background-position: top center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.adjetivo
+{
+    padding: 90px;
+    margin-top: 80px;
+}
+
+.adjetivo .content
+{
+    color: var(--verdenegro)
+}
+
+.titulo_menciones 
+{
+    text-align: center;
+    padding: 3%;
+    color: var(--verdenegro);
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.surfistas
+{
+    background-image: url("../images/fondo.png");
+    height: 400px;
+    background-size: cover;
+    background-position: top center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;    
+}
+
+.surfista
+{
+    margin-top: -50px
+}
+
+.surfista .content
+{
+    background-color: #bbd2c5;
+    padding: 20px;
+    text-align: center;
+    color: var(--verdenegro);
+}
+
+/*----------------V-E-N-T-A-S----------*/
+
+.modulo_pago
+{
+    margin-top: 90px;
+    background-color: var(--cremacolor);
+    box-shadow: 10px 10px 0px 4px var(--verdecolor) ;
+    padding: 30px;
+    text-align: justify;
+    height: 360px;
+}
+
+.imagen_pago
+{
+    padding-left: 40px;
+}
+
+.data
+{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid var(--verdepalido);
+
+}
+
+.modulo_pago .main_button
+{
+    margin-top: 1px;
+}
+ .col-7
+ {
+    padding-left: 70px;
+    margin-bottom: 230px;
+ }
+
+ .formulario
+ {
+     margin-top: 30px;
+ }
+
+ .titulo_formulario
+ {
+     text-align: center;
+ }
+/*----------------V-E-N-T-A-S----------*/
+
+.mailto a
+{
+    color: var(--cremacolor);
+    text-decoration: none;
+}
+
+.footer
+{
+    display: flex;
+    background-color: rgba(92, 147, 150, 0.747);
+    padding: 25px;
+    color : var(--cremacolor);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
